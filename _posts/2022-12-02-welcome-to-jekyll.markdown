@@ -6,7 +6,7 @@ date:   2022-12-02 11:12:08 +0530
 categories: sdet-blog
 permalink: /:categories/:day/:year/:month/:title.html
 ---
-7-Step guide to be a skilled SDET/QE.
+<h1>7-Step guide to be a skilled SDET/QE.</h1>
 Plan the transition with these steps and know your WHY ? & HOW ?
 
 QA role is one of those tech roles which has seen a major evolution over the last decade. The expectations, skill requirements as well as the pay packages for quality engineering roles have changed and increased exponentially over a span of 8–10 years
@@ -15,54 +15,64 @@ However, a guided roadmap of upgrading our skillset to live upto these evolved e
 
 Around 70% of current QA engineers are looking for a perfect course or mentor who can help them to upskill and crack the role of QE or SDET.
 
-<h1>
+<b>
 There can be many motivational reasons for this quest including
-</h1>
+</b>
 
-~Higher CTC package — The salary range for a qualified QE/SDET has gone up and past the levels of all its contemporary roles.
+<b>Higher CTC package — </b>The salary range for a qualified QE/SDET has gone up and past the levels of all its contemporary roles.
 
-~Better job security — Yes , being qualified at your work makes you relatively harder to replace.
+<b>Better job security — </b>Yes , being qualified at your work makes you relatively harder to replace.
 More respect and say — Slightly controversial , but yes, having a better insight of tech, automation & new ways to test is bound to gain high respect from your management & stakeholders helping you to make better decisions and work with autonomy.
 
-~Growth ladder — The skillset & better insight surely opens the ladder for growth within an organisation for both IC and management roles.
-All of them — This one being the most common answer.
-Now let’s break two common myths before jumping on to the steps to become an SDET.
+<b>Growth ladder — </b>The skillset & better insight surely opens the ladder for growth within an organisation for both IC and management roles.
 
-SDET role = ‘Automation’. No it is not. It is very important to burst this bubble since the buzzword of ‘automation’ has set the wrong context among freshers and QA engineers. SDET is much more than automation.
-QA and SDET are two separate roles . No they are not. Do not overwhelm yourself by thinking of it as a major transition into a completely new role. You just need to be better at what you have been already doing till now i.e testing.
-Okay enough of the build up , now let’s get straight to the point and discuss the steps for a quick and smooth transition into the SDET role.
+<b>All of them — </b>This one being the most common answer.
 
-1. Change your Mindset & be more Curious
+<b>| Now let’s break two common myths before jumping on to the steps to become an SDET.  |</b>
+
+<b>SDET role = ‘Automation’.</b> <I> No it is not.</I> It is very important to burst this bubble since the buzzword of ‘automation’ has set the wrong context among freshers and QA engineers. SDET is much more than automation.
+
+<b>QA and SDET are two separate roles . </b>  <I>No they are not.</I>  Do not overwhelm yourself by thinking of it as a major transition into a completely new role. You just need to be better at what you have been already doing till now i.e testing.
+
+<b>Okay enough of the build up , now let’s get straight to the point and discuss the steps for a quick and smooth transition into the SDET role.</b>
+
+<b>1. Change your Mindset & be more Curious</b>
 Be ready to get out of your comfort zone & learn new things! Choose your reason to keep yourself motivated.
-2. Be a much better ‘tester’
-The primary role of SDET role is to test and dig out hidden risks and information to ensure best quality. Start testing everything a level deeper to what you have been doing already and connect every new feature/change ticket to 3 buckets :
-How is it working from a tech point of view ?
-How is it helping businesses to generate revenue ?
-How is it enhancing user experience when rolled out to production ?
+
+<b>2. Be a much better ‘tester’</b>
+    The primary role of SDET role is to test and dig out hidden risks and information to ensure best quality. Start testing everything a level deeper to what you have been doing already and connect every new feature/change ticket to 3 buckets :
+    <I>How is it working from a tech point of view ? <I>
+    <I>How is it helping businesses to generate revenue ? <I>
+    <I>How is it enhancing user experience when rolled out to production ? <I>
+
 Doing the above exercise will give an enormous insight of the product and what is actually expected out of it from tech, business and user point of view thus enabling you to think out of the box test scenarios and enhance the overall product quality you are working on.
 
-<h1>Find new and better ways to test the product, including non-functional types of testing and thinking ahead of functional tests and checks .
-</h1>
+Find new and better ways to test the product, including non-functional types of testing and thinking ahead of functional tests and checks .
 
-3. Learn to read and write code
+<b>3. Learn to read and write code</b>
 Start small with reading and debugging others’ code to understand the logic behind the same. Refer to the developer’s PR which will eventually help you to make better test plans.
+
 Once you are comfortable with reading code, start with writing small codes for simple logics. You can take help of platforms like leetcode.com for practising your coding and problem solving skills.
 I know it is easier said than done , but believe me ‘ just keep practising and don’t give up’ .
 
-4. Advocate for ‘quality’ across cross functional teams
+<b>4. Advocate for ‘quality’ across cross functional teams </b>
 Start building communication channels with cross functional teams and enable them to build quality channels in different phases of SDLC.
+
 Advocate for ‘quality is everyone’s responsibility’ and ‘test in every phase’ by shifting left and right. This will build your credibility and people will start approaching you for discussing the current gaps in quality processes .
-5. Learn automation tools
-If you follow the above steps, you surely would be overwhelmed by now and craving for some extra time. Now is the best time to introduce ‘Automation’ for its right purpose , to save your time from repeatable and redundant processes and test case executions.
-Pick up any one automation tool , ideally best suited for your current job role. It can be either a frontend or backend automation tool. Learn the 5W and 1H of automation by building an end to end automation project.
-Do not focus on building the best framework at this point , but clear your concepts regarding automation and focus on the use cases that automation can provide you in your journey.
-Do not get confused about which programming language or tool to pick right now. You can discuss with your mentor and start on any tool as long as it satisfies your requirement & strategy.
-6. Keep yourself updated
+
+<b>5. Learn automation tools</b>
+      If you follow the above steps, you surely would be overwhelmed by now and craving for some extra time. Now is the best time to introduce ‘Automation’ for its right purpose , to save your time from repeatable and redundant processes and test case executions.
+      Pick up any one automation tool , ideally best suited for your current job role. It can be either a frontend or backend automation tool. Learn the 5W and 1H of automation by building an end to end automation project.
+      Do not focus on building the best framework at this point , but clear your concepts regarding automation and focus on the use cases that automation can provide you in your journey.
+      Do not get confused about which programming language or tool to pick right now. You can discuss with your mentor and start on any tool as long as it satisfies your requirement & strategy.
+
+<b>6. Keep yourself updated </b>
 This step is a continuous loop to keep yourself updated and upto the benchmark of what is happening across industry in terms of new tools, processes, ways & types of testing etc.
 Build your source of information and network by joining testing communities, watching tech talks , attending conferences & reading blogs, books etc.
-7. Communication
+
+<b>7. Communication</b>
 As an SDET engineer , you are required to over-communicate and bridge the gap across all cross functional teams .
 Practice all forms of communications (emails, slack, 1–1s) , send minutes of meeting after every important discussion, share regular test status updated with risks and blockers, and most importantly build relations and trust with stakeholders using the tool of communication.
 And above all , “Break the invisible virtual walls that you have built around yourself” and let NO ONE underestimate your potential of learning and excelling….no one including yourself.
 
-The above steps will surely put you on the right path of becoming a skilled SDET engineer & a valuable employee to the organisation bringing much higher value to the table !
+<b><I>The above steps will surely put you on the right path of becoming a skilled SDET engineer & a valuable employee to the organisation bringing much higher value to the table ! <I>

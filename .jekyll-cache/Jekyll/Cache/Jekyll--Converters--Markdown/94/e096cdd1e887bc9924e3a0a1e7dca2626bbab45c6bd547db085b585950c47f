@@ -1,0 +1,86 @@
+I"0<h1>Introduction</h1>
+<p>With the digital revolution, demands have been increased for the softwares to be delivered to the end users at the earliest. However, it is very important to release a bug free application into the market else the business will have to face brunt. Hence, it is essential to automate the checks and test the application thoroughly before releasing it.</p>
+
+<p>Automation testing makes the testers life easier as the code once written for regression tests can be repeated again and again for rechecking without putting in manual efforts. This saves time and money and also builds in confidence for releasing the application into production with quality.</p>
+
+<p>Regression tests are very much required to be performed as it helps us in knowing the quality of the build against the recent changes made to the application, be it a website or mobile application. And if this is performed using automated tests it can heavily decrease the testing time. A small functionality of testing a CRUD operation of an application might require 5-10 mins of Manual Tester’s time while the same could be tested using Automated Regression tests within 20 seconds approximately.</p>
+
+<p>Automation testing, however, requires, right set of tools, test automation frameworks, technical expertise and testing teams skillset to get the best results. In this blog, we will learn about the best practices for test automation framework.</p>
+
+<p>But before we move on towards discussing the best practices for automation framework, let’s first understand What is an Automation Framework?</p>
+
+<p>What is an Automation Framework?
+Automation frameworks are a set of guidelines related to coding standards, test data management, configuration management, etc which helps in increased code-usage, reduced script maintenance and duplicate codes.</p>
+
+<p>There are no strict rules for an Automation Framework, it is just a guideline which helps in reducing the complexity and makes scripting easier.</p>
+
+<p>Best Practices for Automation Framework
+There is no one-size-fits-all answer to this question, as the design of a test automation framework will vary depending on the specific needs of the organization. However, some best practices for test automation framework design include:</p>
+
+<h3>
+1. Keep it Simple
+</h3>
+<p>Don’t try to build a framework that is too complex or that covers too many different types of tests. A good rule of thumb is to keep the framework as simple as possible, while still providing the functionality required by the business. The other side of asking to keep it simple is considering the team’s skill set, as the freshers join in the team, it will help them grasp the framework knowledge easily, which eventually adds to the productivity. Otherwise, extra efforts will be required to be put in to explain the framework which will add up to the training of the new members in the testing team.</p>
+<h3>
+2. Use a Modular Approach
+</h3>
+
+<p>Modular approach is based on the popularly known OOPs concept – Abstraction. This approach should be used so that different parts of the framework can be easily updated as required. This will make it easier to maintain and improve the framework over time. This approach also helps in code reusability.</p>
+<h3>
+3. Make it extensible
+</h3>
+<p>As Automation Framework is the foundation for writing automated tests, it should be designed in such a way that it can be easily extended to support new types of tests or new features as and when the need arises. This will make it more flexible and easier to adapt.</p>
+
+<h3>
+4. Discuss Tech Stack with the Team Members
+</h3>
+
+<p>Before you start working on the Automation Framework, discuss it internally with your team, it will help in evaluating the idea of framework creation and you will have more clarity to start your work with.</p>
+
+<p>Points like the following can be brainstormed with your team:</p>
+
+<p>What Programming language to be used?
+Which tool should you opt for – Open Source tool or Commercial?
+Should the framework be in the same language as the application is built in?
+List out tools that can be used for your framework, like in case of Web Automation whether Selenium WebDriver Or PlayWright Or Cypress?
+Touch upon the Pros and Cons of the tools selected and decide which one to go ahead with.
+How will the tool be integrated into the CICD Pipeline?
+Support to run the tests on a cloud platform.
+Conclusions should be made after brainstorming on the above topics collectively with the teams thinking about the overall benefit of the application under test.</p>
+
+<h3>
+5. Use standard tools and technologies
+</h3>
+<p>It is always recommended to use the latest tools and technologies for the framework so that it can be easily maintained and support the framework in the long term. Use Standard tools which are popularly used in the industry, as these tools have a large community, you get quick help in case you get stuck anywhere.</p>
+<h3>
+6. Do a Proof of Concept before starting with the tools
+</h3>
+<p>Once the brainstorming is done and tools are decided, it’s better to create a card on the Scrum board for doing a Proof of Concept with the tool to understand the complexity of implementing the tool. Here, Pros and Cons should be noted and accordingly steps should be taken after a team discussion whether to use it for creating a framework or not.</p>
+<h3>
+7. Separate the Configuration
+</h3>
+<p>It is recommended to separate the configuration from the framework.</p>
+
+<p>For example, if you are developing a Web Automation framework, values like OS Name and its version and Browser name and its version should be supplied from a separate configuration file so you don’t have to make changes in the Test Runners inside the framework to run different tests.</p>
+
+<p>Also, consider  a scenario where you have to run parallel tests on different browsers – here setting the browsers, its respective versions, etc from the configuration file will be really helpful. And finally, if you want to run the tests locally, or on a cloud platform, again these values can be set using the configuration file itself.</p>
+<h3>
+8. Reporting
+</h3>
+<p>Reports are an integral part of an automation framework. Choose a standard reporting tool to be integrated with the framework. It would be good if  the framework is extensible so that it can be plugged in with any reporting tool used widely in the market.</p>
+
+<p>Stakeholders are mostly interested in knowing the data and figures as well the percentage of the tests that are automated. This report should help you out with all the possible figures required.</p>
+<h3>
+9. Capture the Logs
+</h3>
+<p>Capturing the logs helps in detecting the errors easily. Logs should be captured accordingly for the actions/events performed by the automation framework. It is suggested to generate appropriate log files for the logs, which can be used for debugging the test failures or framework related errors.</p>
+<h3>
+10. Document the framework
+</h3>
+<p>Documenting the framework is a good practice as it helps in easily understanding the framework, how it works and how to use it. Example code with samples should also be provided in the “How To” section.</p>
+
+<p>It will eventually save the time when new joinees enter your team, this document can serve as a guide to them.</p>
+
+<p>Conclusion
+In this blog, we learned about the best practices used for creating test automation frameworks.Test Automation can help you deliver the best product to the market by testing your application continuously. Automation Frameworks helps you in organizing and writing the tests, hence it should be created using the best practices followed in the industry.</p>
+:ET
